@@ -31,6 +31,7 @@ nav{
     justify-content: space-between;
     margin: 0 200px;
 }
+
 .nav-title{
     color: #181818;
     font-size: 45px;
@@ -55,9 +56,9 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner{
@@ -91,19 +92,6 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
-
-.dev{
-    /* padding: 38px 1441px 25px 23px; */
-    /* align-items: flex-start; */
-    /* color: rgba(24, 24, 24, 0.15);
-    font-size: 100px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 33px;
-    max-width: 774px;
-    text-align: center; */
-}
-
 /* main section styles */
 main{
     max-width: 1140px;
@@ -223,4 +211,6 @@ font-size: 18px;
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 20px;
+    /* margin-bottom: 50px; */
 }
