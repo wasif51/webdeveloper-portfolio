@@ -105,6 +105,11 @@ nav a{
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
@@ -129,3 +134,24 @@ font-size: 18px;
 /* line-height: 30px; */
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about-info{
+   text-align: center;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+    max-width: 118px;
+}
+.info-description{
+    color: #474747;
+    font-weight: bolder;
+}
